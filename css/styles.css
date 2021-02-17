@@ -1,0 +1,225 @@
+.footerModify {
+  padding:20px 0px;
+}
+.footerTitle {
+  font-size: 19px;
+  text-transform: uppercase;
+  margin-bottom: 17px;
+  font-family: 'Nunito';
+  font-weight: 500;
+}
+.footerLink {
+  display: block;
+  margin-bottom:10px;
+  color:#94959a;
+  text-decoration: none;
+}
+.footerIcon {
+  margin-right: 5px;
+}
+.widget_anpstext:before {
+  border-right: 1px solid currentColor;
+  bottom: 1px;
+  content: "";
+  left: 0;
+  opacity: .2;
+  position: absolute;
+  top: 1px;
+  width: 25px;
+}
+.widget_anpstext {
+  position: relative;
+  padding-left: 40px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-family: 'Nunito';
+}
+.mediaLink {
+  font-size: 24px;
+  margin: 5px;
+  color:#aadaff !important ;
+}
+.footerLink:hover {
+  color: white;
+  border-radius: 8px;
+  background-color: #7d8075;
+  padding:10px;
+  text-decoration: none;
+}
+.mediaLink:hover {
+  background: #1b84de;
+  border-radius: 20px;
+  
+  padding: 15px;
+  color: white;
+}
+
+.styleFootLogo {
+  max-height: 140px;
+  max-width: 140px;
+ 
+}
+.footer-distributed{
+	background-color: #0d0d17;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+  width: 100%;
+  margin-bottom: -25px;
+	
+	padding: 35px 40px;
+}
+/* timeline */
+* {
+  box-sizing: border-box;
+}
+
+
+
+.sponsor{
+    /*width: 400px;*/
+    /*height: 120px;*/
+    width: 50%;
+    height: auto;
+    margin-bottom: 25px;
+}
+@media (max-width:450px) {
+  .sponsor{
+      width: 300px;
+  }
+}
+
+
+
+
+
+
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: #0F4C76;
+  position: relative;
+  opacity: 0.789;
+  border-radius: 6px;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
+
+/* map */
+.branch {
+  background-color: black;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: inline-grid;
+}
+.branchHead {
+  margin: 20px;
+  color: #ffffff;
+}
+.branchInfo {
+ color: #8c8383;
+
+}
+.branchNumber {
+  color: white;
+}
+.gradient-text {
+  background: -webkit-linear-gradient(left, #ee0e98 30%, rgba(0, 255, 221, 0.9) 65%);
+  background: -moz-linear-gradient(left, #ee0e98 30%, rgba(0, 255, 191, 0.9) 65%);
+  background: linear-gradient(left, #ee0e98 30%, rgba(0, 255, 191, 0.9) 65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #399bff;
+  font-size: 40px;
+}
+
+/* domain */
+
+
+
+
+.serveTop {
+  margin-bottom: 45px;
+  font-size: 50px;
+  color:white;
+}
+
+
+
+
+.font{
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  color: white;
+}
+
+
+.faqContainer{
+  padding: 25px 0px;
+  text-align: center;
+}
+.collapsible {
+  background-color: #0f4c75;
+  color: white;
+  cursor: pointer;
+  margin-top: 15px;
+  opacity: 0.8656;
+  padding: 18px;
+  width: 80%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  border-radius: 5px;
+  z-index: 1;
+}
+.active, .collapsible:hover {
+  background-color: #00e6c7;
+
+}
+.collapsible:after {
+  content: '\002B';
+  color: white;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+.active:after {
+  content: "\2212";
+}
+
+.contents {
+  padding: 0 18px;
+  margin-left: 10%;
+  max-height: 0;
+  overflow: hidden;
+  color: white;
+  transition: max-height 0.2s ease-out;
+  background-color: black;
+  width: 80%;
+}
+
+.map{
+  width: 98%;
+    height: 368px;
+    
+}
+
+    
+    
+.styleCom,.styleCom:hover {
+      text-decoration: none;
+      color:#aadaff !important;
+}
+  
+
+  body{
+      background-color: #032841;
+      width: 100%;
+      height: auto;
+  }
